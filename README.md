@@ -1,6 +1,6 @@
 # Connect4_AI_Python
 
-This is a Python 3 AI bot playing connect 4 game.
+This is a Python 3 AI bot playing connect 4 game. Created for competition in AI Summer School of CentraleSupelec (The winner project)
 
 The strategy of the bot is inculded in ai_player.py file.
 
@@ -52,12 +52,12 @@ SCORING
 EXAMPLE DECISION TREE SCORING
 
 	Lets say Player 1 makes the first move with the 1 st column.
-	Then Player 2 will get a penalty with the score of player 1’s move.
+	Then Player 2 will get a penalty with the score of player 1â€™s move.
 	So in this case the new score of player 2 would be -138 + 3 =-135
 
 	After if Player 2 makes a move for the second column,
 	then Player 1 will get a penalty of 4 
-	and the new score of player 1 would be 138 – 4 =134 and so on...
+	and the new score of player 1 would be 138 â€“ 4 =134 and so on...
 
 
 By this way, we can form the decision tree and the AI will make moves to maximize the final score of the Player 1.
